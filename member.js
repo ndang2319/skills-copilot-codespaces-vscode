@@ -1,4 +1,7 @@
 function skillsMember() {
-    console.log('I have 2 years of experience in JavaScript.');
-    console.log('I have 2 years of experience in JavaScript.');
+    var member = document.getElementById('member');
+    var skills = document.getElementById('skills');
+
+    member.style.display = 'none';
+    skills.style.display = 'block';
 }
